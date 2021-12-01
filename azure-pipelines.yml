@@ -38,7 +38,7 @@ stages:
       displayName: 'Run npm install'
       inputs:
         verbose: false
-        versionSpec: '12.x'
+        # versionSpec: '12.x'
 
     - script: './node_modules/.bin/node-sass $(wwwrootDir) --output $(wwwrootDir)'
       displayName: 'Compile Sass assets'
